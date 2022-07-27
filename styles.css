@@ -1,0 +1,204 @@
+
+#title {
+background-color:#212529;
+}
+
+.font1{
+font-family: 'Walter Turncoat', cursive,italic;
+font-style: italic;
+color: white;
+font-size:3rem;
+line-height: 1.3;
+padding-bottom:25px;
+}
+
+.container-fluid{
+  padding: 2% 10%;
+}
+
+body{
+font-family: 'Walter Turncoat', cursive;font-style: italic;
+
+}
+.navList{
+font-family: 'Walter Turncoat', cursive;font-style: italic;
+
+}
+.nav-item{padding: 0 11px;}
+
+#features{
+  padding: 7% 15%;
+}
+.featurebox {
+  text-align: center;
+  padding:5%;
+}
+h3{
+  font-family: 'Walter Turncoat', cursive;font-style: italic; font-weight: bold;font-size:1.1rem;
+}
+ p{
+   color:#8f8f8f;
+ }
+
+ .ipadd{
+   padding: 0 0 10% 0;
+   color:#393939;
+ }
+ .ipadd:hover{
+   color:#000000;
+
+ }
+
+ #testimonials{
+padding: 7% 15%;
+
+ background-color: #212529;
+text-align: center;
+ }
+
+ h2{
+   font-family: 'Walter Turncoat', cursive;font-style: italic;
+   font-size:1.5rem;
+   line-height:1.3;
+   text-align: center;
+color: white;
+ }
+ .tmag{text-align: center;
+   width: 7%;
+   border-radius: 100%;
+   margin: 20px;
+ }
+
+ #press{padding: 7% 15%;
+
+  background-color: #212529;
+ text-align: center;}
+
+ .mags{width:20%;
+ padding: 0 10px 0 10px;}
+
+ .carousel-control-prev{
+   size:1.5rem;
+ }
+
+
+ #pricing{
+   padding: 7% 15%;
+
+
+   text-align: center;}
+ }
+.something{color:#000000;
+font-size:3rem;}
+
+#cta{
+  padding: 7% 15%;
+
+
+  text-align: center;}
+}
+.cauy{
+  padding: 7% 15%;
+
+
+  text-align: center;
+}
+.caro{
+  bottom: -40%;
+}
+
+.colh{
+  background-color: #8f8f8f;
+}
+.iphoneima{
+  width: 100%;
+  height: 100%;
+  padding: 20% 0 0 0;
+}
+@media (max-width: 390px) {
+  .iphoneima{
+    width: 100%;
+    height: 100%;
+    padding: 20% 0 0 0;
+  }
+  .cen {
+  text-align: center;
+  }
+
+  #title {
+ height: 845px;
+  }
+}
+@media (min-width: 391px) and (max-width: 500px)  {
+
+  .font1{
+  font-family: 'Walter Turncoat', cursive,italic;
+  font-style: italic;
+  color: white;
+  font-size:3.5rem;
+  line-height: 1.3;
+  padding-bottom:25px;
+  }
+  .iphoneima{
+    width: 100%;
+    height: 100%;
+    padding: 20% 0 0 0;
+  }
+  .cen {
+  text-align: center;
+  }
+
+  #title {
+ height: 870px;
+  }
+}
+@media (max-width: 500px)   {
+.sizech{
+  padding-right: 25px;
+
+}
+.sizech2{
+  padding-left: 25px;
+
+}
+.tmag {
+    text-align: center;
+    width: 7%;
+    border-radius: 100%;
+    margin: 10px;
+}
+#testimonials {
+    padding: 7% 10%;
+    background-color: #212529;
+    text-align: center;
+    height:270px;
+}
+#press {
+    padding: 7% 15%;
+    background-color: #212529;
+    text-align: center;
+    height:350px;
+}
+.mags {
+    width: 50%;
+    padding: 25px 10px 20px 10px;
+}
+.caro{
+  bottom: -70%;
+}
+
+}
+@media (min-width: 800px)   {
+  .iphoneima{
+    width: 100%;
+    height: 100%;
+    padding: 20% 0 0 0;
+  }
+}
+@media (min-width: 600px) and (max-width: 780px)   {
+.iphoneima {
+    width: 100%;
+    height: 85%;
+    padding: 41% 0 0 0;
+}
+}
